@@ -1,0 +1,51 @@
+package auctionproject;
+
+import java.util.ArrayList;
+
+/**
+ * Contains information about a category of auction items
+ * 
+ * @author Nathan Ray
+ */
+public class Category 
+{
+
+	private int categoryID;
+	private String categoryName;
+	private ArrayList<Item> itemList;
+	
+	/**
+	 * Constructor that takes an id value, a name, and a list of items that will appear in the auction
+	 */
+	public Category(int categoryID, String categoryName, ArrayList<Item> itemList) 
+	{
+		this.categoryID = categoryID;
+		this.categoryName = categoryName;
+		this.itemList = itemList;
+	}
+
+	/**
+	 * @return the id of this category
+	 */
+	public int getCategoryID() 
+	{
+		return categoryID;
+	}
+
+	/**
+	 * @return the name of this category
+	 */
+	public String getCategoryName() 
+	{
+		return categoryName;
+	}
+
+	/**
+	 * @return the list of auction items
+	 */
+	public ArrayList<Item> getItemList() 
+	{
+		return itemList;
+	}
+	
+}

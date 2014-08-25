@@ -1,0 +1,106 @@
+package auctionproject;
+
+/**
+ * The class that represents an Item object to be presented and bid upon in the 
+ * auction project
+ * @author Nathan Ray 
+ */
+public class Item 
+{
+	private int itemID;
+	private int categoryID;
+	private String itemName;
+	private String itemDescription;
+	private double highestBid;
+	private String bidderName;
+	private String bidderEmail;
+	
+	/**
+	 * 
+	 * @param itemID
+	 * @param categoryID
+	 * @param itemName
+	 * @param itemDescription
+	 * @param highestBid
+	 * @param bidderName
+	 * @param bidderEmail
+	 */
+	public Item(int itemID, int categoryID, String itemName, String itemDescription, double highestBid, String bidderName, String bidderEmail) 
+	{
+		this.itemID = itemID;
+		this.categoryID = categoryID;
+		this.itemName = itemName;
+		this.itemDescription = itemDescription;
+		this.highestBid = highestBid;
+		this.bidderName = bidderName;
+		this.bidderEmail = bidderEmail;
+	}
+	
+	/**
+	 * 
+	 * @param itemID
+	 * @param categoryID
+	 * @param itemName
+	 * @param itemDescription
+	 */
+	public Item(int itemID, int categoryID, String itemName, String itemDescription) 
+	{
+		this(itemID, categoryID, itemName, itemDescription, 0, "", "");
+	}
+
+	/**
+	 * @return the id value of the item
+	 */
+	public int getItemID() 
+	{
+		return itemID;
+	}
+
+	/**
+	 * @return the id value of the item's category
+	 */
+	public int getCategoryID() 
+	{
+		return categoryID;
+	}
+
+	/**
+	 * @return the name of the item
+	 */
+	public String getItemName() 
+	{
+		return itemName;
+	}
+
+	/**
+	 * @return a description of the item
+	 */
+	public String getItemDescription() 
+	{
+		return itemDescription;
+	}
+
+	/**
+	 * @return the current highest bid on this item
+	 */
+	public double getHighestBid() 
+	{
+		return highestBid;
+	}
+
+	/**
+	 * @return the name of the current high bidder
+	 */
+	public String getBidderName() 
+	{
+		return bidderName;
+	}
+
+	/**
+	 * @return the email of the current high bidder
+	 */
+	public String getBidderEmail() 
+	{
+		return bidderEmail;
+	}
+}

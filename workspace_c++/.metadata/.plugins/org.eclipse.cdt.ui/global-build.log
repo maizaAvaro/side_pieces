@@ -1,0 +1,71 @@
+19:09:11 **** Build of configuration Debug for project OS Project 2 ****
+make all 
+Building file: ../myShellPrompt.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"myShellPrompt.d" -MT"myShellPrompt.d" -o "myShellPrompt.o" "../myShellPrompt.c"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\ntray_000\workspace_c++\OS Project 2\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/ntray_000/workspace_c++/OS Project 2/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+In file included from ../myShellPrompt.c:3:0:
+../implements.h: In function 'populateCommand':
+../implements.h:37:6: warning: unused variable 'number' [-Wunused-variable]
+  int number = 0;
+      ^
+../myShellPrompt.c: In function 'checkBuiltInCommands':
+../myShellPrompt.c:252:3: warning: unknown conversion type character '<' in format [-Wformat=]
+   printf("A job can be killed using the command kill %<job number> such as kill %1 or using the pid number, kill <pid number>\n");
+   ^
+../myShellPrompt.c:252:3: warning: unknown conversion type character 0x20 in format [-Wformat=]
+../myShellPrompt.c:252:3: warning: unknown conversion type character '<' in format [-Wformat=]
+../myShellPrompt.c:252:3: warning: unknown conversion type character 0x20 in format [-Wformat=]
+../myShellPrompt.c:321:8: warning: variable 'offset' set but not used [-Wunused-but-set-variable]
+    int offset;
+        ^
+../myShellPrompt.c:384:8: warning: variable 'offset' set but not used [-Wunused-but-set-variable]
+    int offset;
+        ^
+../myShellPrompt.c:296:10: warning: 'in' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     close(in);
+          ^
+../myShellPrompt.c:314:10: warning: 'out' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     close(out);
+          ^
+../myShellPrompt.c:338:10: warning: 'out' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     close(out);
+          ^
+../myShellPrompt.c:367:10: warning: 'in' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     close(in);
+          ^
+../myShellPrompt.c:368:10: warning: 'out' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     close(out);
+          ^
+../myShellPrompt.c:406:10: warning: 'in' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     close(in);
+          ^
+../myShellPrompt.c:407:10: warning: 'out' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     close(out);
+          ^
+Finished building: ../myShellPrompt.c
+ 
+Building target: OS Project 2.exe
+Invoking: Cygwin C Linker
+gcc  -o "OS Project 2.exe"  ./myShellPrompt.o   
+Finished building target: OS Project 2.exe
+ 
+19:09:26 **** Rebuild of configuration Debug for project Test_Project ****
+Info: Internal Builder is used for build
+cl /c /EHs /MD /Zi /nologo "/Fosrc\\Test_Project.obj" "..\\src\\Test_Project.cpp" 
+Test_Project.cpp
+link /debug /nologo /OUT:Test_Project.exe "src\\Test_Project.obj" 
+19:11:01 **** Incremental Build of configuration Debug for project OS Project 2 ****
+make all 
+make: Nothing to be done for `all'.
+19:11:15 **** Incremental Build of configuration Debug for project OS Project 2 ****
+make all 
+make: Nothing to be done for `all'.
+19:11:22 **** Incremental Build of configuration Debug for project OS Project 2 ****
+make all 
+make: Nothing to be done for `all'.

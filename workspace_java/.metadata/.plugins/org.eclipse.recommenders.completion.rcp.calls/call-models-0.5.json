@@ -1,0 +1,42 @@
+{
+  "C:\\Program Files\\Java\\jre7\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\rt.jar",
+    "status": "RESOLVED"
+  },
+  "C:\\Users\\ntray_000\\workspace_java\\Project 1 OS\\src": {
+    "location": "C:\\Users\\ntray_000\\workspace_java\\Project 1 OS\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\ntray_000\\workspace_java\\Project 1 OS\\src\u0027. Skipped."
+  },
+  "C:\\Users\\ntray_000\\Desktop\\Evolutionary Computing\\jenetics\\lib\\org.jenetics-all-1.4.0.jar": {
+    "location": "C:\\Users\\ntray_000\\Desktop\\Evolutionary Computing\\jenetics\\lib\\org.jenetics-all-1.4.0.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Users\\ntray_000\\Desktop\\Evolutionary Computing\\jenetics\\lib\\org.jenetics-all-1.4.0.jar\u0027. Neither fingerprint \u002736b4081ddf315547e750e7569c946710e11ed70b\u0027 nor symbolic name \u0027org.jenetics-all-1.4.0\u0027 are known."
+  },
+  "C:\\Users\\ntray_000\\workspace_java\\Homework 2 EVO\\src": {
+    "location": "C:\\Users\\ntray_000\\workspace_java\\Homework 2 EVO\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\ntray_000\\workspace_java\\Homework 2 EVO\\src\u0027. Skipped."
+  },
+  "C:\\Users\\ntray_000\\workspace_java\\OS Project 3\\src": {
+    "location": "C:\\Users\\ntray_000\\workspace_java\\OS Project 3\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\ntray_000\\workspace_java\\OS Project 3\\src\u0027. Skipped."
+  },
+  "C:\\Users\\ntray_000\\workspace_java\\Homework 4 EVO\\src": {
+    "location": "C:\\Users\\ntray_000\\workspace_java\\Homework 4 EVO\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\ntray_000\\workspace_java\\Homework 4 EVO\\src\u0027. Skipped."
+  },
+  "C:\\Users\\ntray_000\\workspace_java\\Homework 5 EVO\\src": {
+    "location": "C:\\Users\\ntray_000\\workspace_java\\Homework 5 EVO\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\ntray_000\\workspace_java\\Homework 5 EVO\\src\u0027. Skipped."
+  },
+  "C:\\Users\\ntray_000\\workspace_java\\Aaron\\src": {
+    "location": "C:\\Users\\ntray_000\\workspace_java\\Aaron\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\ntray_000\\workspace_java\\Aaron\\src\u0027. Skipped."
+  }
+}

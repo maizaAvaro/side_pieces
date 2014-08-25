@@ -1,0 +1,62 @@
+package program1;
+
+import junit.framework.TestCase;
+
+/**
+ * Class that tests the Table class
+ * 
+ * @author Nathan Ray
+ *
+ */
+public class TableTest extends TestCase 
+{
+
+	/**
+	 * Tests the method select of the Table class
+	 * 
+	 * @author Nathan Ray
+	 */
+	public void testSelect() 
+	{
+		
+		// TODO
+		
+	} // testSelect
+	
+	/**
+	 * Tests the method project of the Table class
+	 * 
+	 * @author Nathan Ray
+	 */
+	public void testProject()
+	{
+		
+		// TODO
+		
+	}	// testProject
+	
+	/**
+	 * Tests the method union of the Table class
+	 * 
+	 * @author Nathan Ray
+	 */
+	public void testUnion()
+	{
+		
+		// TODO
+		
+	}	// testUnion
+	
+	/**
+	 * Tests the method minus of the Table class
+	 * 
+	 * @author Nathan Ray
+	 */
+	public void testMinus()
+	{
+		
+		// TODO
+		
+	}	// testMinus
+
+}	// TableTest

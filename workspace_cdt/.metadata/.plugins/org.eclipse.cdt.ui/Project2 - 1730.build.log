@@ -1,0 +1,22 @@
+
+**** Build of configuration Debug for project Project2 - 1730 ****
+
+make all 
+Building file: ../src/Prob1.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Prob1.d" -MT"src/Prob1.d" -o "src/Prob1.o" "../src/Prob1.cpp"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\Nathan\workspace_cdt\Project2 - 1730\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/Nathan/workspace_cdt/Project2 - 1730/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/Prob1.cpp
+ 
+Building target: Project2 - 1730.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Project2 - 1730.exe"  ./src/Prob1.o   
+Finished building target: Project2 - 1730.exe
+ 
+
+**** Build Finished ****

@@ -1,0 +1,41 @@
+package cs2670;
+
+import java.util.Scanner;
+
+/**
+ * Class that runs an instance of the Turing Machine detailed in figure 3.8 on p. 172 of Sipser's Introduction
+ * to the Theory of Computation, 3rd edition
+ * @author Nathan Ray
+ *
+ */
+public class Machine_Run 
+{
+
+	/**
+	 * Represents the actual running of the machine to produce output
+	 * @param args - array passed to the main method (unused)
+	 */
+	public static void main(String[] args) 
+	{
+		
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.println("Welcome to the Turing Machine Program.\n\nThis program simulates the processing of input " +
+				"strings by the machine that is represented in figure 3.8 on p. 172 of Sipser's Introduction to the " +
+				"Theory of Computation, 3rd edition.\nThe input to this machine should be entered as any string of " +
+				"x's, 0's, or #'s - where # represents the blank symbol. The sequence of configurations that the " +
+				"machine enters will be displayed on screen, along with a message as to whether the machine accepts " +
+				"or rejects the input given.\n");
+		
+		System.out.print("Please enter the string you wish to be processed: ");
+		
+		String input = "";
+		input = keyboard.nextLine();
+		
+		Turing_Machine M_2 = new Turing_Machine("0000");
+		
+		M_2.printOutput();
+
+	}	// End of main method
+
+}	// End of Machine_Run class

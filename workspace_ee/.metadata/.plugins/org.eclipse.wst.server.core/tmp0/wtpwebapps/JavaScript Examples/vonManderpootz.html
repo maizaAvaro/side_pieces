@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>vonManderpootz</title>
+<script type="text/javascript">
+	/*
+	 * Display an alert box with a cheery hello message
+	 */
+	function sayHello()
+	{
+		alert("Hello from JavaScript!");
+	}
+	
+	/*
+	 * Display a message on rollover
+	 */
+	 function sayOuch()
+	{
+		alert("Ouch! You stepped on me!");
+	}
+</script>
+</head>
+<body>
+
+	<h1>My Ideal is Me</h1>
+	<table>
+		<tr>
+			<td>
+				<h3>My admirable qualities:</h3>
+				<ol>
+					<li>Brilliance</li>
+					<li>Erudition</li>
+					<li>Becoming modesty</li>
+				</ol>
+				<h3>My staggering accomplishments:</h3>
+				<ul>
+					<li>Universal field theory</li>
+					<li>Post-structural literary criticism</li>
+					<li>Concert pianist
+						<ol>
+							<li>Brahams</li>
+							<li>Beethoven</li>
+						</ol>
+					</li>
+					<li>Tennis champion
+						<ul>
+							<li>Wimbledon</li>
+							<li>French Open</li>
+						</ul>
+					</li>
+				</ul>		
+			</td>
+			<td>
+				<h3 onmouseover="sayOuch()">Dr. Felix von Manderpootz</h3>
+				<div>
+				<img src="MadScientist.jpg" alt="A shining example of humanity" width="262" height="350">
+				<!-- This paragraph, honoring the creative work used via this image, was left out of
+				 the assignment - the fixed comment was in reference to the Fred Flintstone pic -->
+				</div>
+			</td>
+		</tr>
+	</table>
+	<input type="button" value="Click to say Hello" onClick="sayHello()">
+</body>
+</html>

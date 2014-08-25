@@ -1,0 +1,131 @@
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import javax.imageio.ImageIO;
+
+public class Operations extends MainPanel
+{
+        
+	private static final long serialVersionUID = 1L;
+	public static BufferedImage aboutFile = null;
+	public static BufferedImage getStartedFile = null;
+			
+	
+		public static void main(String[]args){
+			
+			try{
+				
+				aboutFile = ImageIO.read(new File("About.TXT"));
+				getStartedFile = ImageIO.read(new File("GetStarted.TXT"));
+				
+			}	catch(IOException e){
+				
+				System.out.println("The program has encountered an error in attempting to input the About and Get Started Files");
+			}
+				
+			    //Create the frame
+                JFrame frame = new JFrame("Project 3 CSCI 1302");
+                
+                //Close with standard X button
+                //frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //I have omitted this command under the direction of our assignment document
+                 													   //to only close using File->Quit or keyboard accelerator
+                 
+                //Create the menubar that will house File, Edit, Help and their respective options
+                JMenuBar menubar = new JMenuBar();
+             	frame.setJMenuBar(menubar);
+         		
+             	//Adding the options to the menu
+         		JMenu file = new JMenu("File");
+         		file.setMnemonic('F');
+         		menubar.add(file);
+         		JMenuItem quit = new JMenuItem("Quit  ");
+         		quit.setAccelerator(KeyStroke.getKeyStroke('q'));
+         		file.add(quit);
+         		
+         		JMenu edit = new JMenu("  Edit  ");
+         		edit.setMnemonic('E');
+         		menubar.add(edit);
+         		JMenuItem undo = new JMenuItem("Undo  ");
+         		undo.setAccelerator(KeyStroke.getKeyStroke('u'));
+         		edit.add(undo);
+      
+         		JMenu help = new JMenu("Help");
+         		help.setMnemonic('H');
+         		menubar.add(help);
+         		JMenuItem getStarted = new JMenuItem("Get Started  ");
+         		getStarted.setAccelerator(KeyStroke.getKeyStroke('h'));
+         		JMenuItem about = new JMenuItem("About  ");
+         		about.setAccelerator(KeyStroke.getKeyStroke('a'));
+         		help.add(getStarted);
+         		help.add(about);
+         		
+        
+         		//Classes to implement the "actions" desired when clicking on a menu-bar option
+         		class exitAction implements ActionListener{
+         			
+         			public void actionPerformed(ActionEvent e){
+         				
+         				//exit action code
+         				System.exit(0);
+         				
+         			}
+         			
+         		}
+         		
+         		class undoAction implements ActionListener{
+         			
+         			public void actionPerformed(ActionEvent e){
+         				
+         				//undo action code
+         				getConnectFourPanel().undo();
+         				
+         			}
+         			
+         		}
+         		
+         		class getStartedAction implements ActionListener{
+         			
+         			public void actionPerformed(ActionEvent e){
+         				
+         				//get started action code
+         				
+         			
+         				}
+         			}
+         		
+         		class aboutAction implements ActionListener{
+         			
+         			public void actionPerformed(ActionEvent e){
+         				
+         				//about action code
+         				
+         			}
+         			
+         		}
+         		
+         		//Adding the actions to their respective options
+         		quit.addActionListener(new exitAction());
+         		undo.addActionListener(new undoAction());
+         		getStarted.addActionListener(new getStartedAction());
+         		about.addActionListener(new aboutAction());
+                 
+                //Make main panel and add to frame
+                MainPanel mainPanel = new MainPanel();
+                frame.getContentPane().add(mainPanel);
+                
+                //Pack the frame.
+                frame.pack();
+                
+                //Lock the size of the frame - in the interest of pixelation in addition to problems with static images in relation to dynamic grid ratios
+                frame.setResizable(false);
+                
+                //Make it visible
+                frame.setVisible(true);
+                
+                
+        }
+}

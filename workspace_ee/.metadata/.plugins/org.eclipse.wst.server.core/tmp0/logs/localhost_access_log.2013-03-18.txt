@@ -1,0 +1,9 @@
+127.0.0.1 - - [18/Mar/2013:15:33:42 -0400] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [18/Mar/2013:15:33:53 -0400] "GET /CreditCard/customerList.jsp HTTP/1.1" 200 1196
+0:0:0:0:0:0:0:1 - - [18/Mar/2013:15:34:26 -0400] "POST /CreditCard/Customer HTTP/1.1" 200 1196
+0:0:0:0:0:0:0:1 - - [18/Mar/2013:15:35:21 -0400] "POST /CreditCard/Customer HTTP/1.1" 200 1196
+0:0:0:0:0:0:0:1 - - [18/Mar/2013:15:36:01 -0400] "POST /CreditCard/Customer HTTP/1.1" 200 1196
+0:0:0:0:0:0:0:1 - - [18/Mar/2013:15:36:13 -0400] "GET /CreditCard/Customer HTTP/1.1" 200 1196
+127.0.0.1 - - [18/Mar/2013:15:44:49 -0400] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [18/Mar/2013:15:44:51 -0400] "GET /CreditCard/Customer HTTP/1.1" 200 1196
+0:0:0:0:0:0:0:1 - - [18/Mar/2013:15:47:04 -0400] "POST /CreditCard/Customer HTTP/1.1" 200 1196

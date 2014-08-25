@@ -1,0 +1,22 @@
+
+**** Build of configuration Debug for project FileIO ****
+
+make all 
+Building file: ../src/FileIO.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileIO.d" -MT"src/FileIO.d" -o "src/FileIO.o" "../src/FileIO.c"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\Nathan\workspace_cdt\FileIO\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/Nathan/workspace_cdt/FileIO/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/FileIO.c
+ 
+Building target: FileIO.exe
+Invoking: Cygwin C Linker
+gcc  -o "FileIO.exe"  ./src/FileIO.o   
+Finished building target: FileIO.exe
+ 
+
+**** Build Finished ****

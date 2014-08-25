@@ -1,0 +1,50 @@
+<project name = "Auction Project" default = "Deploy">
+
+   <target name = "Compile Java Files">
+     <javac srcdir = "src" destdir = "classes">
+       <classpath>
+		<pathelement location = "classes"/>
+		<pathelement location = "/opt/tomcat/lib/servlet-api.jar"/>
+	</classpath>
+     </javac>		
+   </target>
+
+   <target name = "Compile Test Files" depends = "Compile Java Files">
+     <javac srcdir = "test_src" destdir = "test_classes" debug = "on">
+         <classpath>
+             <pathelement location = "classes"/>
+             <pathelement location = "/usr/share/java/junit4.jar"/>
+         </classpath>
+     </javac>
+   </target>
+
+   <target name = "Run Test Files" depends = "Compile Test Files">
+		<sql
+			driver = "com.mysql.jdbc.Driver"
+			classpath = "/opt/tomcat/lib/mysql-connector-java-5.1.22-bin.jar"
+			url = "jdbc:mysql://localhost/cs4300"
+			userid = "root"
+			password = "Taoisone1?" >
+			
+			select * from Item;
+			
+		</sql>
+			
+		<junit haltonfailure = "on">
+			<formatter type = "plain" usefile  ="false"/>
+			<test name = "auctionproject.AuctionHelperTest"/>
+			<classpath>
+				<pathelement location = "classes"/>
+				<pathelement location = "test_classes"/>
+				<pathelement location = "/opt/tomcat/lib/mysql-connector-java-5.1.22-bin.jar"/>
+			</classpath>
+		</junit>
+   </target>
+
+   <target name = "Deploy" depends = "Run Test Files">
+   	<war destfile = "Auction.war" basedir = "web" webxml = "web.xml">
+	<classes dir="classes"/>
+   	</war>
+   </target>		
+
+</project>

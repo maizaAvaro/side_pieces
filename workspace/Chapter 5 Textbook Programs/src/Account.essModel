@@ -1,0 +1,14 @@
+[Box: ::Default - ::Default::Account]
+X=225
+Y=40
+
+[Box: ::Default - ::Default::Transactions]
+X=20
+Y=40
+
+[Diagram: ::Default]
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowAssoc=0
+

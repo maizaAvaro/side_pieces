@@ -1,0 +1,33 @@
+2014-01-18 11:31:17.168 [Worker-1] INFO    com.objectaid.uml.model.manage.DiagramManager getFactories: com.objectaid.uml.diagramFactories[ucls]: com.objectaid.uml.cls.model.ClassDiagramFactory@b3b944a
+2014-01-18 11:31:17.510 [Worker-1] INFO    com.objectaid.uml.model.manage.DiagramManager getFactories: com.objectaid.uml.diagramFactories[useq]: com.objectaid.uml.seq.model.SequenceDiagramFactory@2095e01b
+2014-01-18 11:31:20.970 [Worker-1] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.doc.TextLink in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:31:20.973 [Worker-1] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.doc.TextLinkEditPart in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:31:20.975 [Worker-1] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.doc.PTextLink in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:31:20.978 [Worker-1] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.model.diagram.ConnectionEnd in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:31:20.980 [Worker-1] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.model.persistence.PersistedConnectionEnd in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:31:20.983 [Worker-1] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.doc.TextNodeDefinition in [com.objectaid.uml.cls], no license for [com.objectaid.uml.addon]
+2014-01-18 11:31:26.230 [Worker-1] INFO    com.objectaid.uml.model.manage.LanguageElementManager getLanguageElementFactories: com.objectaid.uml.languageElementFactories: com.objectaid.uml.java.JavaElementFactory
+2014-01-18 11:36:38.518 [main] INFO    com.objectaid.uml.util.extend.ExecutableExtensionManager loadExtensions: found com.objectaid.uml.renderFormats=com.objectaid.uml.render.RasterRenderFormat
+2014-01-18 11:36:38.529 [main] INFO    com.objectaid.uml.util.extend.ExecutableExtensionManager loadExtensions: found com.objectaid.uml.renderFormats=com.objectaid.uml.render.RasterRenderFormat
+2014-01-18 11:36:38.533 [main] INFO    com.objectaid.uml.util.extend.ExecutableExtensionManager loadExtensions: found com.objectaid.uml.renderFormats=com.objectaid.uml.render.IndexedRasterRenderFormat
+2014-01-18 11:36:38.536 [main] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.render.SVGRenderFormat in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:36:38.538 [main] INFO    com.objectaid.uml.util.extend.ExecutableExtensionManager loadExtensions: found com.objectaid.uml.renderFormats=com.objectaid.uml.addon.render.SVGRenderFormat but cannot load class
+2014-01-18 11:36:38.540 [main] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.render.PDFRenderFormat in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:36:38.542 [main] INFO    com.objectaid.uml.util.extend.ExecutableExtensionManager loadExtensions: found com.objectaid.uml.renderFormats=com.objectaid.uml.addon.render.PDFRenderFormat but cannot load class
+2014-01-18 11:36:39.693 [main] WARNING com.objectaid.uml.java.ClassifierDependencyCandidateFactory$DependencyVisitor visit: QualifiedName.resolveTypeBinding() failed for java.sql
+2014-01-18 11:36:41.347 [main] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.doc.TextDiagramEditPolicy in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:36:41.650 [main] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.doc.TextLinkCreationEditPolicy in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:36:41.827 [main] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.doc.TextLinkCreationEditPolicy in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:36:41.847 [main] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.doc.TextLinkCreationEditPolicy in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:36:41.851 [main] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.doc.TextLinkCreationEditPolicy in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:36:41.890 [main] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.edit.MultiplicityDirectEditPolicy in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:36:41.894 [main] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.doc.TextLinkCreationEditPolicy in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:36:41.897 [main] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.doc.TextLinkCreationEditPolicy in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:36:41.916 [main] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.doc.TextLinkCreationEditPolicy in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:36:41.924 [main] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.edit.MultiplicityDirectEditPolicy in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:36:42.056 [main] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.doc.TextLinkCreationEditPolicy in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:36:42.060 [main] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.doc.TextLinkCreationEditPolicy in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:36:42.094 [main] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.doc.TextLinkCreationEditPolicy in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:36:42.097 [main] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.doc.TextLinkCreationEditPolicy in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:36:42.100 [main] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.doc.TextLinkCreationEditPolicy in [], no license for [com.objectaid.uml.addon]
+2014-01-18 11:36:42.105 [main] WARNING com.objectaid.uml.util.EclipseHelper loadClass: cannot find com.objectaid.uml.addon.doc.TextLinkCreationEditPolicy in [], no license for [com.objectaid.uml.addon]

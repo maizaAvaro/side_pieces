@@ -1,0 +1,8 @@
+
+Attendance Tracker
+
+Version 1.0
+
+(c) Copyright Nathan Ray and Elliot Chung contributors 2012. 
+
+All rights reserved.

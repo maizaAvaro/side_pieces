@@ -1,0 +1,16 @@
+127.0.0.1 - - [02/Feb/2013:13:55:18 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [02/Feb/2013:13:55:22 -0500] "GET /CreditCard/index.jsp HTTP/1.1" 200 1318
+0:0:0:0:0:0:0:1 - - [02/Feb/2013:13:55:27 -0500] "GET /CreditCard/index.jsp?purchaseAmount=1000 HTTP/1.1" 200 1322
+0:0:0:0:0:0:0:1 - - [02/Feb/2013:13:55:30 -0500] "GET /CreditCard/index.jsp?purchaseAmount=50 HTTP/1.1" 200 1322
+0:0:0:0:0:0:0:1 - - [02/Feb/2013:13:55:46 -0500] "GET /CreditCard/index.jsp?purchaseAmount=1100000000000 HTTP/1.1" 200 1361
+0:0:0:0:0:0:0:1 - - [02/Feb/2013:13:56:38 -0500] "GET /CreditCard/index.jsp HTTP/1.1" 200 1320
+127.0.0.1 - - [02/Feb/2013:13:57:50 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [02/Feb/2013:13:57:51 -0500] "GET /CreditCard/index.jsp HTTP/1.1" 200 1316
+0:0:0:0:0:0:0:1 - - [02/Feb/2013:13:58:17 -0500] "GET /CreditCard/index.jsp?purchaseAmount=1111100000000 HTTP/1.1" 200 1355
+0:0:0:0:0:0:0:1 - - [02/Feb/2013:13:59:25 -0500] "GET /CreditCard/index.jsp HTTP/1.1" 200 1316
+127.0.0.1 - - [02/Feb/2013:14:00:24 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [02/Feb/2013:14:00:25 -0500] "GET /CreditCard/index.jsp HTTP/1.1" 200 1316
+0:0:0:0:0:0:0:1 - - [02/Feb/2013:14:00:46 -0500] "GET /CreditCard/index.jsp?purchaseAmount=5%2C680.89 HTTP/1.1" 500 4657
+0:0:0:0:0:0:0:1 - - [02/Feb/2013:14:01:34 -0500] "GET /CreditCard/index.jsp HTTP/1.1" 200 1316
+0:0:0:0:0:0:0:1 - - [02/Feb/2013:14:01:41 -0500] "GET /CreditCard/index.jsp?purchaseAmount=100 HTTP/1.1" 200 1318
+0:0:0:0:0:0:0:1 - - [02/Feb/2013:14:01:43 -0500] "GET /CreditCard/index.jsp?purchaseAmount=200 HTTP/1.1" 200 1318

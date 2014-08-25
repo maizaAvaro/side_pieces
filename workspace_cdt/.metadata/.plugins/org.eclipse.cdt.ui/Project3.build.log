@@ -1,0 +1,30 @@
+
+**** Build of configuration Debug for project Project3 ****
+
+make all 
+Building file: ../src/Project3.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project3.d" -MT"src/Project3.d" -o "src/Project3.o" "../src/Project3.cpp"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\Nathan\workspace_cdt\Project3\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/Nathan/workspace_cdt/Project3/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+In file included from ../src/Project3.cpp:3:0:
+../src/line.h:9:25: error: expected '{' before ':' token
+../src/line.h:9:25: error: expected unqualified-id before ':' token
+In file included from ../src/Project3.cpp:5:0:
+../src/round.h:9:26: error: expected '{' before ':' token
+../src/round.h:9:26: error: expected unqualified-id before ':' token
+In file included from ../src/Project3.cpp:6:0:
+../src/triangle.h:9:29: error: expected '{' before ':' token
+../src/triangle.h:9:29: error: expected unqualified-id before ':' token
+../src/Project3.cpp: In function 'int main(int, char**)':
+../src/Project3.cpp:25:9: warning: unused variable 'p2'
+../src/Project3.cpp:26:9: warning: unused variable 'p3'
+../src/Project3.cpp:27:9: warning: unused variable 'p4'
+make: *** [src/Project3.o] Error 1
+src/subdir.mk:40: recipe for target `src/Project3.o' failed
+
+**** Build Finished ****

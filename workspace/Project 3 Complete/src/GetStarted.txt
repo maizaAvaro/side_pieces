@@ -1,0 +1,51 @@
+
+Description:
+
+
+Four In A Row is a two-player board game in which the 
+objective is to be the first to get four of one's 
+own discs in a line.
+
+
+Rules:
+
+
+The game is played on a board with 7 columns and 6 rows, which is placed 
+in a vertical position. The players have 21 discs each, distinguished by a 
+character image. The players take turns dropping discs in any of the non-full columns. 
+The disc occupies the lowest unplayed square on that column. A player 
+wins by placing four of their own discs consecutively in a line 
+(row, column or diagonal), which ends the game. The game ends in a cat tie if 
+the board is filled completely without any player winning.
+
+
+Controls:
+
+
+The game begins with player 1 designated as Goku and player 2 designated
+as Cell. The game-play is turn-based and will switch accordingly
+until the reset button is pressed or the program is exited, at which
+point the game will begin again with player 1.
+
+To play, simply click the button above the corresponding column you wish
+to drop your piece. Upon any player accomplishing a four-in-a-row, the
+winning four pieces will be highlighted in blue and the scoreboard
+will be updated. The grid is automatically reset in the event of a win or
+tie. To reset the scoreboard, press the Reset Game button or exit the
+program. If the Reset Game button is pressed in the midst of game-play, both
+the grid and scoreboard will be reset. At any point, in a single game, a player 
+can undo his or her last move by clicking the Undo Move button or choosing 
+Undo from the Edit menu. 
+
+
+Keyboard Shortcuts:
+
+
+Alt+F - Open File Menu
+Alt+E - Open Edit Menu
+Alt+H - Open Help Menu
+
+q - Quit Program
+u - Undo Last Move
+h - Open Help File
+a - Open About File

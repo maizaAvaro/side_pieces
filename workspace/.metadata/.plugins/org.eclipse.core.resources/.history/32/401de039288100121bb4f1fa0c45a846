@@ -1,0 +1,31 @@
+package cs2670;
+
+import java.util.ArrayList;
+
+public class Machine_Run 
+{
+
+	/**
+	 * Represents the actual running of the machine to produce output
+	 * @param args - array passed to the main method (unused)
+	 */
+	public static void main(String[] args) 
+	{
+		
+		Turing_Machine machine = new Turing_Machine("0000");
+		
+		ArrayList<String> input = new ArrayList<String>();
+		
+		input = machine.getTokenizedInput();
+		
+		for(int i = 0; i < input.size(); i++)
+		{
+			
+			String temp = input.get(i);
+			System.out.println(temp);
+			
+		}	// End of for loop
+
+	}	// End of main method
+
+}	// End of Machine_Run class

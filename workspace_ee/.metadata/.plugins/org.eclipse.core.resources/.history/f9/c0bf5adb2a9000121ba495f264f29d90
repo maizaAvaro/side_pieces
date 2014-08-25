@@ -1,0 +1,80 @@
+package auctionproject;
+
+import java.sql.*;
+import java.util.ArrayList;
+
+/**
+ * The class that manages database access for the auction project
+ * @author Nathan Ray
+ */
+public class AuctionHelper 
+{
+	/**
+	 * Statement to add an Item to the database
+	 */
+	private PreparedStatement addItemStatement;
+	
+	/**
+	 * Statement to remove an Item from the database
+	 */
+	private PreparedStatement removeItemStatement;
+	
+	/**
+	 * Statement to list the items in a particular category from the database
+	 */
+	private PreparedStatement listItemsStatement;
+	
+	/**
+	 * Statement to list the categories in the database
+	 */
+	private PreparedStatement listCategoryStatement;
+	
+	/**
+	 * Represents the URL used to connect to the necessary database
+	 */
+	private static String JDBC_URL = "jdbc:mysql://localhost/cs4300";
+	
+	
+	/**
+	 * Establishes the connection to the database and initializes the PreparedStatements
+	 */
+	public AuctionHelper()
+	{
+		try 
+		{
+			Class.forName("com.mysql.jdbc.Driver");
+			Connection conn = DriverManager.getConnection(JDBC_URL, "root", "Taoisone1?");
+			addItemStatement = conn.prepareStatement("insert into AuctionItem (custName, custAddr, creditLimit, unpaidBalance, imageURL) values (?, ?, ?, ?, ?)");
+			
+		}catch (Exception error) 
+		{
+			System.out.println(error.getClass().getName() + ": " + error.getMessage());
+		}
+	}
+	
+	/**
+	 * Adds an Item object to the database in the Admin view prior to any bids taking place
+	 */
+	public void addItemPriorToBid() 
+	{
+		
+	}
+	
+	/**
+	 * Updates the item with the highest bid information included
+	 */
+	public void updateItemWithBid()
+	{
+		
+	}
+
+	/**
+	 * Gets the list of categories to be displayed with Item objects included
+	 * 
+	 * @return ArrayList<Category>
+	 */
+	public ArrayList<Category> getCategoryList()
+	{
+		return null;
+	}
+}

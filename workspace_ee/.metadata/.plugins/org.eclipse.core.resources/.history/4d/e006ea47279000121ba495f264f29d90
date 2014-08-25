@@ -1,0 +1,124 @@
+package auctionproject;
+
+/**
+ * The class that represents an Item object to be presented and bid upon in the 
+ * auction project
+ * @author Nathan Ray 
+ */
+public class Item 
+{
+	/**
+	 * Represents the id of the category object this item falls under
+	 */
+	private int catID;
+	
+	/**
+	 * Represents the id of the Item object
+	 */
+	private int itemID;
+	
+	/**
+	 * Represents the name of the Item object
+	 */
+	private String itemName;
+	
+	/**
+	 * Represents the description of the Item object to be displayed to the user
+	 */
+	private String itemDescription;
+	
+	/**
+	 * Represents the name of the current high bidder
+	 */
+	private String nameOfHighBidder;
+	
+	/**
+	 * Represents the email contact information of the current high bidder
+	 */
+	private String emailOfHighBidder;
+	
+	/**
+	 * Represents the current highest bid amount on an item
+	 */
+	private double highBid;
+	
+	
+	public Item(int itemID, int catID, String itemName, String itemDescription, double highBid, String nameOFHighBidder, String emailOfHighBidder) 
+	{
+		this.itemID = itemID;
+		this.catID = catID;
+		this.itemName = itemName;
+		this.itemDescription = itemDescription;
+		this.highBid = highBid;
+		this.nameOfHighBidder = nameOfHighBidder;
+		this.bidderEmail = ;
+	}
+	
+	/**
+	 * 
+	 * @param itemID
+	 * @param categoryID
+	 * @param itemName
+	 * @param itemDescription
+	 */
+	public Item(int itemID, int categoryID, String itemName, String itemDescription) 
+	{
+		this(itemID, categoryID, itemName, itemDescription, 0, "", "");
+	}
+
+	/**
+	 * @return the id value of the item
+	 */
+	public int getItemID() 
+	{
+		return itemID;
+	}
+
+	/**
+	 * @return the id value of the item's category
+	 */
+	public int getCategoryID() 
+	{
+		return categoryID;
+	}
+
+	/**
+	 * @return the name of the item
+	 */
+	public String getItemName() 
+	{
+		return itemName;
+	}
+
+	/**
+	 * @return a description of the item
+	 */
+	public String getItemDescription() 
+	{
+		return itemDescription;
+	}
+
+	/**
+	 * @return the current highest bid on this item
+	 */
+	public double getHighestBid() 
+	{
+		return highestBid;
+	}
+
+	/**
+	 * @return the name of the current high bidder
+	 */
+	public String getBidderName() 
+	{
+		return bidderName;
+	}
+
+	/**
+	 * @return the email of the current high bidder
+	 */
+	public String getBidderEmail() 
+	{
+		return bidderEmail;
+	}
+}

@@ -1,0 +1,2040 @@
+!SESSION 2012-03-31 13:56:28.971 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+This is a continuation of log file C:\Users\Nathan\workspace\.metadata\.bak_0.log
+Created Time: 2012-03-31 15:41:46.257
+
+!ENTRY org.eclipse.ui 4 0 2012-03-31 15:41:46.258
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ant.internal.ui.AntUtil.isKnownAntFile(AntUtil.java:594)
+	at org.eclipse.ant.internal.ui.launchConfigurations.AntLaunchShortcut.launch(AntLaunchShortcut.java:466)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:424)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:217)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.showShortcutSelectionDialog(ContextRunner.java:286)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:140)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:82)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.run(AbstractLaunchToolbarAction.java:79)
+	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:404)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:241)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui 4 0 2012-03-31 15:43:38.132
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ant.internal.ui.AntUtil.isKnownAntFile(AntUtil.java:594)
+	at org.eclipse.ant.internal.ui.launchConfigurations.AntLaunchShortcut.launch(AntLaunchShortcut.java:466)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:424)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:217)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.showShortcutSelectionDialog(ContextRunner.java:286)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:140)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:82)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.run(AbstractLaunchToolbarAction.java:79)
+	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:404)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:241)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SESSION 2012-04-03 21:21:55.510 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench 4 0 2012-04-19 14:47:34.480
+!MESSAGE Widget disposed too early for part org.eclipse.debug.ui.DebugView
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.debug.ui.DebugView
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1290)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2012-04-19 14:47:34.574
+!MESSAGE Widget disposed too early for part org.eclipse.jdt.ui.PackageExplorer
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.jdt.ui.PackageExplorer
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1290)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2012-04-19 14:47:34.589
+!MESSAGE Widget disposed too early for part org.eclipse.ui.views.ContentOutline
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.ui.views.ContentOutline
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1290)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2012-04-19 14:47:34.621
+!MESSAGE Widget disposed too early for part org.eclipse.ui.console.ConsoleView
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.ui.console.ConsoleView
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1290)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2012-04-19 14:47:34.621
+!MESSAGE Widget disposed too early for part org.eclipse.jdt.ui.CompilationUnitEditor
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.jdt.ui.CompilationUnitEditor
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1290)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2012-04-19 14:47:34.621
+!MESSAGE Widget disposed too early for part org.eclipse.jdt.ui.CompilationUnitEditor
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.jdt.ui.CompilationUnitEditor
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1290)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2012-04-19 14:47:34.636
+!MESSAGE Widget disposed too early for part org.eclipse.jdt.ui.CompilationUnitEditor
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.jdt.ui.CompilationUnitEditor
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1290)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2012-04-19 14:47:34.636
+!MESSAGE Widget disposed too early for part org.eclipse.jdt.ui.CompilationUnitEditor
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.jdt.ui.CompilationUnitEditor
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1290)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2012-04-19 14:47:34.652
+!MESSAGE Widget disposed too early for part org.eclipse.jdt.ui.CompilationUnitEditor
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.jdt.ui.CompilationUnitEditor
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1290)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2012-04-19 14:47:34.652
+!MESSAGE Widget disposed too early for part org.eclipse.jdt.ui.CompilationUnitEditor
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.jdt.ui.CompilationUnitEditor
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1290)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2012-04-19 14:47:34.652
+!MESSAGE Widget disposed too early for part org.eclipse.jdt.ui.CompilationUnitEditor
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.jdt.ui.CompilationUnitEditor
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1290)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2012-04-19 14:47:34.667
+!MESSAGE Widget disposed too early for part org.eclipse.jdt.ui.CompilationUnitEditor
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.jdt.ui.CompilationUnitEditor
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1290)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2012-04-19 14:47:34.667
+!MESSAGE Widget disposed too early for part org.eclipse.jdt.ui.CompilationUnitEditor
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.jdt.ui.CompilationUnitEditor
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1290)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SESSION 2012-06-18 15:20:48.645 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-06-18 15:20:57.763
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2012-06-18 15:32:12.100 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2012-06-18 15:35:26.305
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:35:26.306
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.306
+!MESSAGE Software being installed: C/C++ Development Tools 8.0.0.201106081058 (org.eclipse.cdt.feature.group 8.0.0.201106081058)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.306
+!MESSAGE Software being installed: C/C++ Development Tools SDK 8.0.0.201109151620 (org.eclipse.cdt.sdk.feature.group 8.0.0.201109151620)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:35:26.306
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.306
+!MESSAGE C/C++ Development Tools 8.0.0.201109151620 (org.eclipse.cdt.feature.jar 8.0.0.201109151620)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.306
+!MESSAGE C/C++ Development Tools 8.0.0.201106081058 (org.eclipse.cdt.feature.jar 8.0.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.306
+!MESSAGE C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.jar 8.0.2.201202111925)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:35:26.306
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.306
+!MESSAGE From: C/C++ Development Tools 8.0.0.201106081058 (org.eclipse.cdt.feature.group 8.0.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.306
+!MESSAGE To: org.eclipse.cdt.feature.jar [8.0.0.201106081058]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:35:26.306
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.306
+!MESSAGE From: C/C++ Development Tools 8.0.0.201109151620 (org.eclipse.cdt.feature.group 8.0.0.201109151620)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.307
+!MESSAGE To: org.eclipse.cdt.feature.jar [8.0.0.201109151620]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:35:26.307
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.307
+!MESSAGE From: C/C++ Development Tools SDK 8.0.0.201109151620 (org.eclipse.cdt.sdk.feature.group 8.0.0.201109151620)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.307
+!MESSAGE To: org.eclipse.cdt.feature.group [8.0.0.201109151620]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2012-06-18 15:35:26.347
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:35:26.348
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.348
+!MESSAGE Software being installed: C/C++ Development Tools 8.0.0.201106081058 (org.eclipse.cdt.feature.group 8.0.0.201106081058)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.348
+!MESSAGE Software being installed: C/C++ Development Tools SDK 8.0.0.201109151620 (org.eclipse.cdt.sdk.feature.group 8.0.0.201109151620)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:35:26.348
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.348
+!MESSAGE C/C++ Development Tools 8.0.0.201109151620 (org.eclipse.cdt.feature.jar 8.0.0.201109151620)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.348
+!MESSAGE C/C++ Development Tools 8.0.0.201106081058 (org.eclipse.cdt.feature.jar 8.0.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.348
+!MESSAGE C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.jar 8.0.2.201202111925)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:35:26.348
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.348
+!MESSAGE From: C/C++ Development Tools 8.0.0.201106081058 (org.eclipse.cdt.feature.group 8.0.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.348
+!MESSAGE To: org.eclipse.cdt.feature.jar [8.0.0.201106081058]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:35:26.348
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.349
+!MESSAGE From: C/C++ Development Tools 8.0.0.201109151620 (org.eclipse.cdt.feature.group 8.0.0.201109151620)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.349
+!MESSAGE To: org.eclipse.cdt.feature.jar [8.0.0.201109151620]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:35:26.349
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.349
+!MESSAGE From: C/C++ Development Tools SDK 8.0.0.201109151620 (org.eclipse.cdt.sdk.feature.group 8.0.0.201109151620)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:35:26.349
+!MESSAGE To: org.eclipse.cdt.feature.group [8.0.0.201109151620]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2012-06-18 15:39:55.452
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:39:55.453
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.453
+!MESSAGE Software being installed: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.453
+!MESSAGE Software being installed: C/C++ GNU Toolchain Debug Support 7.1.0.201106081058 (org.eclipse.cdt.gnu.debug.feature.group 7.1.0.201106081058)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:39:55.453
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.453
+!MESSAGE C/C++ Development Tools GDB/MI CDI Debugger UI 6.1.0.201109151620 (org.eclipse.cdt.debug.mi.ui 6.1.0.201109151620)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.453
+!MESSAGE C/C++ Development Tools GDB/MI CDI Debugger UI 6.1.1.201202111925 (org.eclipse.cdt.debug.mi.ui 6.1.1.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.453
+!MESSAGE C/C++ Development Tools GDB/MI CDI Debugger UI 6.1.0.201106081058 (org.eclipse.cdt.debug.mi.ui 6.1.0.201106081058)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:39:55.454
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.454
+!MESSAGE From: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.454
+!MESSAGE To: org.eclipse.cdt.gnu.debug.feature.group [7.1.1.201202111925]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:39:55.454
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.454
+!MESSAGE From: C/C++ GNU Toolchain Debug Support 7.1.0.201106081058 (org.eclipse.cdt.gnu.debug.feature.group 7.1.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.454
+!MESSAGE To: org.eclipse.cdt.debug.mi.ui [6.1.0.201106081058]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:39:55.454
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.454
+!MESSAGE From: C/C++ GNU Toolchain Debug Support 7.1.1.201202111925 (org.eclipse.cdt.gnu.debug.feature.group 7.1.1.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.455
+!MESSAGE To: org.eclipse.cdt.debug.mi.ui [6.1.1.201202111925]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2012-06-18 15:39:55.462
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:39:55.463
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.463
+!MESSAGE Software being installed: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.463
+!MESSAGE Software being installed: C/C++ GNU Toolchain Debug Support 7.1.0.201106081058 (org.eclipse.cdt.gnu.debug.feature.group 7.1.0.201106081058)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:39:55.463
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.463
+!MESSAGE C/C++ Development Tools GDB/MI CDI Debugger UI 6.1.0.201109151620 (org.eclipse.cdt.debug.mi.ui 6.1.0.201109151620)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.463
+!MESSAGE C/C++ Development Tools GDB/MI CDI Debugger UI 6.1.1.201202111925 (org.eclipse.cdt.debug.mi.ui 6.1.1.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.463
+!MESSAGE C/C++ Development Tools GDB/MI CDI Debugger UI 6.1.0.201106081058 (org.eclipse.cdt.debug.mi.ui 6.1.0.201106081058)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:39:55.463
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.464
+!MESSAGE From: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.464
+!MESSAGE To: org.eclipse.cdt.gnu.debug.feature.group [7.1.1.201202111925]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:39:55.464
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.464
+!MESSAGE From: C/C++ GNU Toolchain Debug Support 7.1.0.201106081058 (org.eclipse.cdt.gnu.debug.feature.group 7.1.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.464
+!MESSAGE To: org.eclipse.cdt.debug.mi.ui [6.1.0.201106081058]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:39:55.464
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.464
+!MESSAGE From: C/C++ GNU Toolchain Debug Support 7.1.1.201202111925 (org.eclipse.cdt.gnu.debug.feature.group 7.1.1.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:39:55.464
+!MESSAGE To: org.eclipse.cdt.debug.mi.ui [6.1.1.201202111925]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2012-06-18 15:41:55.708
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:41:55.708
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.708
+!MESSAGE Software being installed: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.709
+!MESSAGE Software being installed: C/C++ GNU Toolchain Build Support 8.0.0.201106081058 (org.eclipse.cdt.gnu.build.feature.group 8.0.0.201106081058)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:41:55.709
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.709
+!MESSAGE C/C++ GNU Toolchain Build Support 8.0.0.201109151620 (org.eclipse.cdt.gnu.build.feature.jar 8.0.0.201109151620)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.709
+!MESSAGE C/C++ GNU Toolchain Build Support 8.0.0.201106081058 (org.eclipse.cdt.gnu.build.feature.jar 8.0.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.709
+!MESSAGE C/C++ GNU Toolchain Build Support 8.0.2.201202111925 (org.eclipse.cdt.gnu.build.feature.jar 8.0.2.201202111925)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:41:55.709
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.709
+!MESSAGE From: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.709
+!MESSAGE To: org.eclipse.cdt.gnu.build.feature.group [8.0.2.201202111925]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:41:55.709
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.709
+!MESSAGE From: C/C++ GNU Toolchain Build Support 8.0.0.201106081058 (org.eclipse.cdt.gnu.build.feature.group 8.0.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.709
+!MESSAGE To: org.eclipse.cdt.gnu.build.feature.jar [8.0.0.201106081058]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:41:55.709
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.709
+!MESSAGE From: C/C++ GNU Toolchain Build Support 8.0.2.201202111925 (org.eclipse.cdt.gnu.build.feature.group 8.0.2.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.709
+!MESSAGE To: org.eclipse.cdt.gnu.build.feature.jar [8.0.2.201202111925]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2012-06-18 15:41:55.715
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:41:55.715
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.715
+!MESSAGE Software being installed: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.715
+!MESSAGE Software being installed: C/C++ GNU Toolchain Build Support 8.0.0.201106081058 (org.eclipse.cdt.gnu.build.feature.group 8.0.0.201106081058)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:41:55.715
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.715
+!MESSAGE C/C++ GNU Toolchain Build Support 8.0.0.201109151620 (org.eclipse.cdt.gnu.build.feature.jar 8.0.0.201109151620)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.715
+!MESSAGE C/C++ GNU Toolchain Build Support 8.0.0.201106081058 (org.eclipse.cdt.gnu.build.feature.jar 8.0.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.715
+!MESSAGE C/C++ GNU Toolchain Build Support 8.0.2.201202111925 (org.eclipse.cdt.gnu.build.feature.jar 8.0.2.201202111925)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:41:55.715
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.715
+!MESSAGE From: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.716
+!MESSAGE To: org.eclipse.cdt.gnu.build.feature.group [8.0.2.201202111925]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:41:55.716
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.716
+!MESSAGE From: C/C++ GNU Toolchain Build Support 8.0.0.201106081058 (org.eclipse.cdt.gnu.build.feature.group 8.0.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.716
+!MESSAGE To: org.eclipse.cdt.gnu.build.feature.jar [8.0.0.201106081058]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:41:55.716
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.716
+!MESSAGE From: C/C++ GNU Toolchain Build Support 8.0.2.201202111925 (org.eclipse.cdt.gnu.build.feature.group 8.0.2.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:41:55.716
+!MESSAGE To: org.eclipse.cdt.gnu.build.feature.jar [8.0.2.201202111925]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2012-06-18 15:43:24.902
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:43:24.902
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.902
+!MESSAGE Software being installed: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.902
+!MESSAGE Software being installed: C/C++ DSF GDB Debugger Integration 4.0.0.201106081058 (org.eclipse.cdt.gnu.dsf.feature.group 4.0.0.201106081058)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:43:24.902
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.902
+!MESSAGE C/C++ DSF GDB Debugger Integration 4.0.0.201106081058 (org.eclipse.cdt.gnu.dsf.feature.jar 4.0.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.902
+!MESSAGE C/C++ DSF GDB Debugger Integration 4.0.0.201109151620 (org.eclipse.cdt.gnu.dsf.feature.jar 4.0.0.201109151620)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.903
+!MESSAGE C/C++ DSF GDB Debugger Integration 4.0.1.201202111925 (org.eclipse.cdt.gnu.dsf.feature.jar 4.0.1.201202111925)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:43:24.903
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.903
+!MESSAGE From: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.903
+!MESSAGE To: org.eclipse.cdt.gnu.dsf.feature.group [4.0.1.201202111925]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:43:24.903
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.903
+!MESSAGE From: C/C++ DSF GDB Debugger Integration 4.0.0.201106081058 (org.eclipse.cdt.gnu.dsf.feature.group 4.0.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.903
+!MESSAGE To: org.eclipse.cdt.gnu.dsf.feature.jar [4.0.0.201106081058]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:43:24.903
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.904
+!MESSAGE From: C/C++ DSF GDB Debugger Integration 4.0.1.201202111925 (org.eclipse.cdt.gnu.dsf.feature.group 4.0.1.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.904
+!MESSAGE To: org.eclipse.cdt.gnu.dsf.feature.jar [4.0.1.201202111925]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2012-06-18 15:43:24.912
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:43:24.912
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.912
+!MESSAGE Software being installed: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.913
+!MESSAGE Software being installed: C/C++ DSF GDB Debugger Integration 4.0.0.201106081058 (org.eclipse.cdt.gnu.dsf.feature.group 4.0.0.201106081058)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:43:24.913
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.913
+!MESSAGE C/C++ DSF GDB Debugger Integration 4.0.0.201106081058 (org.eclipse.cdt.gnu.dsf.feature.jar 4.0.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.913
+!MESSAGE C/C++ DSF GDB Debugger Integration 4.0.0.201109151620 (org.eclipse.cdt.gnu.dsf.feature.jar 4.0.0.201109151620)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.913
+!MESSAGE C/C++ DSF GDB Debugger Integration 4.0.1.201202111925 (org.eclipse.cdt.gnu.dsf.feature.jar 4.0.1.201202111925)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:43:24.914
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.914
+!MESSAGE From: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.914
+!MESSAGE To: org.eclipse.cdt.gnu.dsf.feature.group [4.0.1.201202111925]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:43:24.914
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.914
+!MESSAGE From: C/C++ DSF GDB Debugger Integration 4.0.0.201106081058 (org.eclipse.cdt.gnu.dsf.feature.group 4.0.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.914
+!MESSAGE To: org.eclipse.cdt.gnu.dsf.feature.jar [4.0.0.201106081058]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-18 15:43:24.914
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.914
+!MESSAGE From: C/C++ DSF GDB Debugger Integration 4.0.1.201202111925 (org.eclipse.cdt.gnu.dsf.feature.group 4.0.1.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-18 15:43:24.915
+!MESSAGE To: org.eclipse.cdt.gnu.dsf.feature.jar [4.0.1.201202111925]
+!SESSION 2012-06-19 12:41:05.295 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2012-06-19 12:47:51.444
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:47:51.444
+!MESSAGE Cannot complete the install because some dependencies are not satisfiable
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:47:51.445
+!MESSAGE org.eclipse.linuxtools.callgraph.feature.feature.group [0.9.0.201202152032] cannot be installed in this environment because its filter is not applicable.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2012-06-19 12:47:51.597
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:47:51.597
+!MESSAGE Cannot complete the install because some dependencies are not satisfiable
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:47:51.598
+!MESSAGE org.eclipse.linuxtools.callgraph.feature.feature.group [0.9.0.201202152032] cannot be installed in this environment because its filter is not applicable.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2012-06-19 12:54:05.978
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:54:05.979
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.979
+!MESSAGE Software being installed: C/C++ Development Platform 8.0.0.201106081058 (org.eclipse.cdt.platform.feature.group 8.0.0.201106081058)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.979
+!MESSAGE Software being installed: C/C++ Development Tools SDK 8.0.2.201202111925 (org.eclipse.cdt.sdk.feature.group 8.0.2.201202111925)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:54:05.979
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.979
+!MESSAGE Debug Services Framework Core 2.2.0.201106081058 (org.eclipse.cdt.dsf 2.2.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.979
+!MESSAGE Debug Services Framework Core 2.2.0.201202111925 (org.eclipse.cdt.dsf 2.2.0.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.979
+!MESSAGE Debug Services Framework Core 2.2.0.201109151620 (org.eclipse.cdt.dsf 2.2.0.201109151620)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:54:05.979
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.979
+!MESSAGE From: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.979
+!MESSAGE To: org.eclipse.cdt.platform.feature.group [8.0.2.201202111925]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:54:05.979
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.980
+!MESSAGE From: C/C++ Development Platform 8.0.0.201106081058 (org.eclipse.cdt.platform.feature.group 8.0.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.980
+!MESSAGE To: org.eclipse.cdt.dsf [2.2.0.201106081058]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:54:05.980
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.980
+!MESSAGE From: C/C++ Development Platform 8.0.2.201202111925 (org.eclipse.cdt.platform.feature.group 8.0.2.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.980
+!MESSAGE To: org.eclipse.cdt.dsf [2.2.0.201202111925]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:54:05.980
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.980
+!MESSAGE From: C/C++ Development Tools SDK 8.0.2.201202111925 (org.eclipse.cdt.sdk.feature.group 8.0.2.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.980
+!MESSAGE To: org.eclipse.cdt.feature.group [8.0.2.201202111925]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2012-06-19 12:54:05.985
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:54:05.987
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.987
+!MESSAGE Software being installed: C/C++ Development Platform 8.0.0.201106081058 (org.eclipse.cdt.platform.feature.group 8.0.0.201106081058)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.987
+!MESSAGE Software being installed: C/C++ Development Tools SDK 8.0.2.201202111925 (org.eclipse.cdt.sdk.feature.group 8.0.2.201202111925)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:54:05.987
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.987
+!MESSAGE Debug Services Framework Core 2.2.0.201106081058 (org.eclipse.cdt.dsf 2.2.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.987
+!MESSAGE Debug Services Framework Core 2.2.0.201202111925 (org.eclipse.cdt.dsf 2.2.0.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.988
+!MESSAGE Debug Services Framework Core 2.2.0.201109151620 (org.eclipse.cdt.dsf 2.2.0.201109151620)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:54:05.988
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.988
+!MESSAGE From: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.988
+!MESSAGE To: org.eclipse.cdt.platform.feature.group [8.0.2.201202111925]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:54:05.988
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.988
+!MESSAGE From: C/C++ Development Platform 8.0.0.201106081058 (org.eclipse.cdt.platform.feature.group 8.0.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.988
+!MESSAGE To: org.eclipse.cdt.dsf [2.2.0.201106081058]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:54:05.988
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.988
+!MESSAGE From: C/C++ Development Platform 8.0.2.201202111925 (org.eclipse.cdt.platform.feature.group 8.0.2.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.988
+!MESSAGE To: org.eclipse.cdt.dsf [2.2.0.201202111925]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:54:05.988
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.988
+!MESSAGE From: C/C++ Development Tools SDK 8.0.2.201202111925 (org.eclipse.cdt.sdk.feature.group 8.0.2.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:05.989
+!MESSAGE To: org.eclipse.cdt.feature.group [8.0.2.201202111925]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2012-06-19 12:54:32.423
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:54:32.423
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:32.423
+!MESSAGE Software being installed: Eclipse Debugger for C/C++ 2.0.0.201106081058 (org.eclipse.cdt.debug.edc.feature.group 2.0.0.201106081058)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:32.423
+!MESSAGE Software being installed: Eclipse Debugger for C/C++ 2.0.0.201109151658 (org.eclipse.cdt.debug.edc.feature.group 2.0.0.201109151658)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:54:32.423
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:32.423
+!MESSAGE Scripting 1.0.0.201109151658 (org.eclipse.cdt.scripting 1.0.0.201109151658)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:32.423
+!MESSAGE Scripting 1.0.0.201106081058 (org.eclipse.cdt.scripting 1.0.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:32.423
+!MESSAGE Scripting 1.0.0.201202112006 (org.eclipse.cdt.scripting 1.0.0.201202112006)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:54:32.423
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:32.423
+!MESSAGE From: Eclipse Debugger for C/C++ 2.0.0.201106081058 (org.eclipse.cdt.debug.edc.feature.group 2.0.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:32.423
+!MESSAGE To: org.eclipse.cdt.scripting [1.0.0.201106081058]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:54:32.423
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:32.423
+!MESSAGE From: Eclipse Debugger for C/C++ 2.0.0.201109151658 (org.eclipse.cdt.debug.edc.feature.group 2.0.0.201109151658)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:32.424
+!MESSAGE To: org.eclipse.cdt.scripting [1.0.0.201109151658]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2012-06-19 12:54:32.434
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:54:32.434
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:32.434
+!MESSAGE Software being installed: Eclipse Debugger for C/C++ 2.0.0.201106081058 (org.eclipse.cdt.debug.edc.feature.group 2.0.0.201106081058)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:32.434
+!MESSAGE Software being installed: Eclipse Debugger for C/C++ 2.0.0.201109151658 (org.eclipse.cdt.debug.edc.feature.group 2.0.0.201109151658)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:54:32.434
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:32.434
+!MESSAGE Scripting 1.0.0.201109151658 (org.eclipse.cdt.scripting 1.0.0.201109151658)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:32.434
+!MESSAGE Scripting 1.0.0.201106081058 (org.eclipse.cdt.scripting 1.0.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:32.434
+!MESSAGE Scripting 1.0.0.201202112006 (org.eclipse.cdt.scripting 1.0.0.201202112006)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:54:32.434
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:32.434
+!MESSAGE From: Eclipse Debugger for C/C++ 2.0.0.201106081058 (org.eclipse.cdt.debug.edc.feature.group 2.0.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:32.434
+!MESSAGE To: org.eclipse.cdt.scripting [1.0.0.201106081058]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-06-19 12:54:32.434
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:32.435
+!MESSAGE From: Eclipse Debugger for C/C++ 2.0.0.201109151658 (org.eclipse.cdt.debug.edc.feature.group 2.0.0.201109151658)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-06-19 12:54:32.435
+!MESSAGE To: org.eclipse.cdt.scripting [1.0.0.201109151658]
+!SESSION 2012-08-15 20:20:07.676 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2012-08-16 21:50:49.129
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for Scanner [in Scanner.class [in java.util [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:643)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2012-08-16 21:50:49.132
+!MESSAGE Timed out while retrieving the attached javadoc for Scanner [in Scanner.class [in java.util [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] 
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2012-08-16 21:50:49.165
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for Scanner [in Scanner.class [in java.util [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:643)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2012-08-16 21:50:49.166
+!MESSAGE Timed out while retrieving the attached javadoc for Scanner [in Scanner.class [in java.util [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] 
+
+!ENTRY org.eclipse.ui 4 0 2012-09-08 20:14:46.183
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1708)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:730)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:715)
+	at org.eclipse.ui.internal.WorkbenchWindow$5.run(WorkbenchWindow.java:860)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:858)
+	at org.eclipse.jface.window.Window.handleShellCloseEvent(Window.java:741)
+	at org.eclipse.jface.window.Window$3.shellClosed(Window.java:687)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:98)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:308)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1677)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4530)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2531)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3752)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SESSION 2012-09-14 14:17:37.981 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2012-09-16 15:39:55.942
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for JFrame [in JFrame.class [in javax.swing [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:121)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2012-09-16 15:39:55.961
+!MESSAGE Timed out while retrieving the attached javadoc for JFrame [in JFrame.class [in javax.swing [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] 
+!SESSION 2012-09-30 19:14:33.927 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2012-10-02 14:19:04.279
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for Component [in Component.class [in java.awt [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:643)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2012-10-02 14:19:04.322
+!MESSAGE Timed out while retrieving the attached javadoc for Component [in Component.class [in java.awt [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] 
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2012-10-02 14:19:05.851
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for JComponent [in JComponent.class [in javax.swing [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:643)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2012-10-02 14:19:05.851
+!MESSAGE Timed out while retrieving the attached javadoc for JComponent [in JComponent.class [in javax.swing [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] 
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2012-10-02 14:19:05.882
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for JLabel [in JLabel.class [in javax.swing [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:643)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2012-10-02 14:19:05.882
+!MESSAGE Timed out while retrieving the attached javadoc for JLabel [in JLabel.class [in javax.swing [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] 
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2012-10-02 14:19:13.394
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for String [in String.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:643)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2012-10-02 14:19:13.394
+!MESSAGE Timed out while retrieving the attached javadoc for String [in String.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] 
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2012-10-02 14:19:14.126
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for String [in String.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:643)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2012-10-02 14:19:14.127
+!MESSAGE Timed out while retrieving the attached javadoc for String [in String.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] 
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2012-10-02 14:20:02.519
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for Component [in Component.class [in java.awt [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:643)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2012-10-02 14:20:02.519
+!MESSAGE Timed out while retrieving the attached javadoc for Component [in Component.class [in java.awt [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] 
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2012-10-02 14:20:03.834
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for JComponent [in JComponent.class [in javax.swing [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:643)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2012-10-02 14:20:03.834
+!MESSAGE Timed out while retrieving the attached javadoc for JComponent [in JComponent.class [in javax.swing [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] 
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2012-10-02 14:20:03.931
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for JLabel [in JLabel.class [in javax.swing [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:643)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2012-10-02 14:20:03.967
+!MESSAGE Timed out while retrieving the attached javadoc for JLabel [in JLabel.class [in javax.swing [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] 
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2012-10-02 14:20:05.978
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for String [in String.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:643)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2012-10-02 14:20:05.979
+!MESSAGE Timed out while retrieving the attached javadoc for String [in String.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] 
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2012-10-02 14:20:06.644
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for String [in String.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:643)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2012-10-02 14:20:06.644
+!MESSAGE Timed out while retrieving the attached javadoc for String [in String.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] 
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2012-10-03 20:58:52.104
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for JFrame [in JFrame.class [in javax.swing [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:121)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2012-10-03 20:58:52.105
+!MESSAGE Timed out while retrieving the attached javadoc for JFrame [in JFrame.class [in javax.swing [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] 
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2012-10-03 23:14:34.838
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for JTable [in JTable.class [in javax.swing [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:643)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2012-10-03 23:14:34.839
+!MESSAGE Timed out while retrieving the attached javadoc for JTable [in JTable.class [in javax.swing [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]] 
+
+!ENTRY org.eclipse.ui 4 4 2012-10-04 01:21:04.392
+!MESSAGE "Show Tooltip Description" did not complete normally.  Please see the log for more information.
+
+!ENTRY org.eclipse.ui 4 0 2012-10-04 01:21:04.394
+!MESSAGE Widget is disposed
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Control.setFocus(Control.java:3301)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.setFocus(AbstractAnnotationHover.java:207)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformationControl(AbstractInformationControlManager.java:1276)
+	at org.eclipse.jface.internal.text.StickyHoverManager.showInformationControl(StickyHoverManager.java:295)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.showInformationControl(InformationControlReplacer.java:162)
+	at org.eclipse.jface.text.AbstractInformationControlManager.internalShowInformationControl(AbstractInformationControlManager.java:1164)
+	at org.eclipse.jface.text.AbstractInformationControlManager.presentInformation(AbstractInformationControlManager.java:1150)
+	at org.eclipse.jface.text.AbstractInformationControlManager.setInformation(AbstractInformationControlManager.java:418)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.computeInformation(InformationControlReplacer.java:114)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1131)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformation(AbstractInformationControlManager.java:1121)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.replaceInformationControl(InformationControlReplacer.java:99)
+	at org.eclipse.jface.text.AbstractInformationControlManager.replaceInformationControl(AbstractInformationControlManager.java:1298)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager.replaceInformationControl(AbstractHoverInformationControlManager.java:809)
+	at org.eclipse.jface.text.TextViewerHoverManager.replaceInformationControl(TextViewerHoverManager.java:309)
+	at org.eclipse.jface.text.TextViewerHoverManager.setFocus(TextViewerHoverManager.java:357)
+	at org.eclipse.jface.text.TextViewer.moveFocusToWidgetToken(TextViewer.java:5588)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$InformationDispatchAction.run(AbstractTextEditor.java:1884)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:468)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:786)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:885)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:567)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:508)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1104)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1100)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1809)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:4892)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4560)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2531)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3752)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SESSION 2012-10-16 16:20:59.899 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.ide 4 4 2012-10-16 20:53:47.222
+!MESSAGE Exception in org.eclipse.ui.actions.CopyFilesAndFoldersOperation.performCopy(): java.lang.ArrayIndexOutOfBoundsException: 0
+
+!ENTRY org.eclipse.ui.ide 4 4 2012-10-16 20:53:52.146
+!MESSAGE Exception in org.eclipse.ui.actions.CopyFilesAndFoldersOperation.performCopy(): java.lang.ArrayIndexOutOfBoundsException: 0
+
+!ENTRY org.eclipse.ui.ide 4 4 2012-10-16 20:54:22.004
+!MESSAGE Exception in org.eclipse.ui.actions.CopyFilesAndFoldersOperation.performCopy(): java.lang.ArrayIndexOutOfBoundsException: 0
+!SESSION 2012-11-24 14:08:10.636 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-11-24 14:08:20.808
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

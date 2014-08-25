@@ -1,0 +1,14 @@
+H1 {COLOR: red; font-family:Arial}
+H3 {COLOR: green;font-family:Arial}
+P {FONT-FAMILY:Arial; font-size: 12pt}
+LI {FONT-FAMILY:Arial; font-size: 12pt;padding-bottom:5px}
+.border {background-color:yellow; margin-left:5em; margin-right:5em; border-width:medium}
+.special {color:red;font-size:14pt}
+B  {color:blue}
+TD {background-color:white;font-size:11pt;font-family:Verdana;padding:3px 3px 3px 3px}
+TH {background-color:#CC3300;color:white;font-family:Arial;padding-left:12px;padding-right:12px}
+A  {font-family:Arial; text-decoration:none;color:red}
+I  {color:green}
+P  {padding-left:20px; padding-right:30px}
+TABLE {border-color:green;border-width:medium;border-style:solid}
+BODY {background-color:lightyellow}

@@ -1,0 +1,150 @@
+package expressions;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+/**
+ * Represents an algebraic expression, stored as a list of Token objects - excerpt taken
+ * from Dr. Dan Everett's Javadoc
+ */
+public class Expression 
+{
+
+	
+	/**
+	 * Represents the list of Token objects 
+	 */
+	protected List<Token> tokenList;
+	
+	
+	/**
+	 * Creates a new Expression from a list of Tokens - excerpt taken from Dr. Dan
+	 * Everett's Javadoc
+	 * @param tokens
+	 */
+	public Expression(List<Token> tokens)
+	{
+		
+		tokenList = new ArrayList<Token>();
+		tokenList.addAll(tokens);
+		
+	}	// End of Expression Constructor
+	
+	
+	/**
+	 * Returns the list of Tokens - excerpt taken from Dr. Dan Everett's Javadoc
+	 */
+	protected List<Token> getTokenList()
+	{
+		
+		return tokenList;
+		
+	}	// End of getTokenList method
+	
+	
+	/**
+	 * Returns the index in tokenList of the last multiplication or division OperatorToken
+	 * that is not enclosed in parentheses, or -1 if no such token exists - excerpt taken
+	 * from Dr. Dan Everett's Javadoc
+	 */
+	protected int lastHighPriorityOperatorIndex()
+	{
+		
+		int operatorCount = 0;
+		
+		for(int i = 0; i < tokenList.size(); i++)
+		{
+			
+			String tokenName = tokenList.get(i).getClass().getName();
+			
+			if(tokenName.equals("expressions.OperatorToken"))
+			{
+				
+				operatorCount++;
+				
+			}	// End of if statement
+			
+		}	// End of for loop
+		
+		return ((tokenList.size() + 1) - operatorCount) + 1;
+		
+	}	// End of lastHighPriorityOperatorIndex method
+	
+	
+	/**
+	 * Returns the index in tokenList of the last addition or subtraction OperatorToken
+	 * that is not enclosed in parentheses, or -1 if no such token exists - excerpt taken
+	 * from Dr. Dan Everett's Javadoc
+	 */
+	protected int lastLowPriorityOperatorIndex()
+	{
+		
+		// TODO
+		int test = 1;
+		return test;
+		
+	}	// End of lastLowPriorityOperatorIndex method
+	
+	
+	/**
+	 * Returns the subexpression of this expression consisting of tokens first through
+	 * last - excerpt taken from Dr. Dan Everett's Javadoc
+	 */
+	protected Expression subExpression(int first, int last)
+	{
+		
+		List<Token> subList = new ArrayList<Token>();
+		
+		// TODO - Add for loop comments
+		for(int i = first; i <= last; i++)
+		{
+			
+			subList.add(tokenList.get(i));
+			
+		}	// End of for-loop
+		
+		Expression subExpression = new Expression(subList);
+		
+		return subExpression;
+		
+	}	// End of subExpression method
+	
+	
+	/**
+	 * Returns a string representation of this object (Expression) - excerpt taken from
+	 * Dr. Dan Everett's Javadoc
+	 */
+	@Override
+	public String toString()
+	{
+		
+		String representation = "";
+		
+		// TODO - Add for loop comments
+		for(int i = 0; i < tokenList.size(); i++)
+		{
+			
+			representation = representation + tokenList.get(i);
+			
+		}	// End of for-loop
+		
+		return representation;
+		
+	}	// End of toString method
+	
+	
+	/**
+	 * Returns the value of this Expression - excerpt taken from Dr. Dan Everett's Javadoc
+	 */
+	public double value()
+	{
+		
+		// TODO
+		double test = 1.0;
+		return test;
+		
+	}	// End of value method
+	
+	
+}	// End of class Expression

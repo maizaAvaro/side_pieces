@@ -1,0 +1,15 @@
+package shit;
+
+public class Test 
+{
+
+	public static void main(String[] args) 
+	{
+		
+		
+		System.out.println("You Suck");
+		
+
+	} // Main
+
+} // Test

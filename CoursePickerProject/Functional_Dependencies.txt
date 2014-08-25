@@ -1,0 +1,21 @@
+
+Functional Dependencies
+
+Requirements:
+
+no dependencies
+
+super key is requirementID, coursePrefix, courseNumber
+
+RequirementsMap:
+
+requirementID -> requirementName
+
+CourseListing:
+
+coursePrefix, courseNumber -> courseTitle
+
+callNumber -> courseNumber, coursePrefix, 
+              instructorName, availability, creditHours, session
+
+callNumber, periodBegin, days -> periodEnd, building, room

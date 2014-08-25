@@ -1,0 +1,26 @@
+
+**** Build of configuration Debug for project 2720 Linked List ****
+
+make all 
+Building file: ../src/list.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/list.d" -MT"src/list.d" -o "src/list.o" "../src/list.cpp"
+Finished building: ../src/list.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building file: ../src/node.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/node.d" -MT"src/node.d" -o "src/node.o" "../src/node.cpp"
+Finished building: ../src/node.cpp
+ 
+Building target: 2720 Linked List.exe
+Invoking: Cygwin C++ Linker
+g++  -o "2720 Linked List.exe"  ./src/list.o  ./src/main.o  ./src/node.o   
+Finished building target: 2720 Linked List.exe
+ 
+
+**** Build Finished ****

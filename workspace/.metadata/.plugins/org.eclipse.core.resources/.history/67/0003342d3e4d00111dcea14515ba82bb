@@ -1,0 +1,36 @@
+
+import java.util.Scanner;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import javax.imageio.ImageIO;
+
+public class GreenScreen {
+
+	//public void getImage(){
+		
+		//BufferedImage img1 = null;
+		
+		//try{
+			
+			//String inp1 = "sagar.png";
+			//img1 = ImageIO.read(new File(inp1));
+			
+		//}	catch (IOException e){
+			
+			//System.out.println("Reading Image Error");
+			//e.printStackTrace();
+			
+		//}
+		
+	//}
+
+	public static void main(String[] args) {
+
+		
+		
+		
+		
+	}
+
+}

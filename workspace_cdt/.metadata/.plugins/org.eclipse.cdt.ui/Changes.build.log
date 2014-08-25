@@ -1,0 +1,22 @@
+
+**** Build of configuration Debug for project Changes ****
+
+make all 
+Building file: ../src/Changes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Changes.d" -MT"src/Changes.d" -o "src/Changes.o" "../src/Changes.cpp"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\Nathan\workspace_cdt\Changes\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/Nathan/workspace_cdt/Changes/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/Changes.cpp
+ 
+Building target: Changes.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Changes.exe"  ./src/Changes.o   
+Finished building target: Changes.exe
+ 
+
+**** Build Finished ****

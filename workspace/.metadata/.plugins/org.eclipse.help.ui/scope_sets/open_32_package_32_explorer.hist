@@ -1,0 +1,5 @@
+#Tue Feb 28 23:32:59 EST 2012
+__DEFAULT__=false
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.help.ui.localSearch.master=true
+expression=open package explorer

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+rm CourseListing.csv
+wget --secure-protocol=SSLv3 -O /home/student/CoursePicker/CourseListing.csv https://apps.reg.uga.edu/reporting/static_reports/course_offering_UNIV_201308.csv
+
+echo "File Downloaded"
+
+user="root"
+password="Taoisone1?"
+db="cs4300"
+
+mysql -u "$user" -p"$password" "$db" << EOF
+	truncate CourseListing;
+	load data infile '/home/student/CoursePicker/CourseListing.csv' into table CourseListing fields terminated by ',' enclosed by '\"';
+	exit
+EOF
+
+echo "File Uploaded to CourseListing table"
+

@@ -1,0 +1,22 @@
+
+**** Build of configuration Debug for project Test ****
+
+make all 
+Building file: ../src/round.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/round.d" -MT"src/round.d" -o "src/round.o" "../src/round.cpp"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\Nathan\workspace_cdt\Test\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/Nathan/workspace_cdt/Test/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/round.cpp
+ 
+Building target: Test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Test.exe"  ./src/Test.o  ./src/complexshape.o  ./src/line.o  ./src/point.o  ./src/rectangle.o  ./src/round.o  ./src/shape.o  ./src/triangle.o   
+Finished building target: Test.exe
+ 
+
+**** Build Finished ****

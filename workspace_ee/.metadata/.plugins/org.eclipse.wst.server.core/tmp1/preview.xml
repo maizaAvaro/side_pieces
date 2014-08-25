@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module context="HTML_Practice" name="HTML Practice" path="C:/Users/Nathan/workspace_ee/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/HTML Practice" type="static"/>
+</server>

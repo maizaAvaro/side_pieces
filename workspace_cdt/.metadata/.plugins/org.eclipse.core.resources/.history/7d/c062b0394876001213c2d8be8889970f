@@ -1,0 +1,54 @@
+/*
+ * list.cpp
+ *
+ *  Created on: Feb 13, 2013
+ *      Author: Nathan
+ */
+
+#include "list.h"
+
+SLL::SLL()
+{
+
+	head = NULL;
+
+}
+
+SLL::~SLL()
+{
+
+	cout << endl;
+	cout << "Singly Linked List Destructor Called" << endl;
+
+}
+
+void SLL::Insert(string searchKey, int distance)
+{
+
+
+
+}
+
+bool SLL::Delete(string searchKey)
+{
+
+
+
+}
+
+bool SLL::Search(string searchKey)
+{
+
+
+
+}
+
+void SLL::Print()
+{
+
+
+
+}
+
+
+

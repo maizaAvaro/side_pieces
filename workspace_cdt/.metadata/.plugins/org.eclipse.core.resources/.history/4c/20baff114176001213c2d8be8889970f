@@ -1,0 +1,18 @@
+/*
+ * node.cpp
+ *
+ *  Created on: Feb 13, 2013
+ *      Author: Nathan
+ */
+
+#include "node.h"
+
+Node::Node(const string keyValue, const int distance)
+{
+
+
+
+}
+
+
+

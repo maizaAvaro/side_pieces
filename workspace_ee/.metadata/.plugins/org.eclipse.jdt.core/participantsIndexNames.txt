@@ -1,0 +1,17 @@
+INDEX VERSION 1.126
+C:\Users\Nathan\workspace_ee\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1581196518.index
+\JDBC Practice\src
+C:\Users\Nathan\workspace_ee\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\353725028.index
+\Auction Project\src
+C:\Users\Nathan\workspace_ee\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1119556668.index
+\JSF Example\src
+C:\Users\Nathan\workspace_ee\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1040854282.index
+\CreditCard\src
+C:\Users\Nathan\workspace_ee\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1772554652.index
+\JavaScript Examples\src
+C:\Users\Nathan\workspace_ee\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\639917539.index
+\ACME Order Form\src
+C:\Users\Nathan\workspace_ee\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\366540198.index
+\Assignment 1\src
+C:\Users\Nathan\workspace_ee\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2172115020.index
+\MVC Practice\src

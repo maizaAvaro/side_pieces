@@ -1,0 +1,47 @@
+<project name = "CoursePicker" default = "Deploy">
+
+   <target name = "Compile Java Files">
+     <javac srcdir = "src" destdir = "classes">
+       <classpath>
+		<pathelement location = "classes"/>
+		<pathelement location = "/opt/tomcat/lib/servlet-api.jar"/>
+		<pathelement location = "/opt/tomcat/lib/json-simple-1.1.1.jar"/>
+		<pathelement location = "/opt/tomcat/lib/java-json.jar"/>
+	</classpath>
+     </javac>		
+   </target>
+
+   <target name = "Compile Test Files" depends = "Compile Java Files">
+     <javac srcdir = "test_src" destdir = "test_classes" debug = "on">
+         <classpath>
+             <pathelement location = "classes"/>
+             <pathelement location = "/usr/share/java/junit4.jar"/>
+         </classpath>
+     </javac>
+   </target>
+
+   <target name = "Run Test Files" depends = "Compile Test Files">
+		<junit haltonfailure = "off">
+			<formatter type = "brief" usefile  ="false"/>
+			<test name = "helper.CourseTest"/>
+			<test name = "helper.MeetingTest"/>
+			<test name = "helper.ScheduleTest"/>
+			<test name = "helper.SectionTest"/>
+			<test name = "helper.PickerDAOTest"/>
+			<classpath>
+				<pathelement location = "classes"/>
+				<pathelement location = "test_classes"/>
+				<pathelement location = "/opt/tomcat/lib/mysql-connector-java-5.1.22-bin.jar"/>
+			</classpath>
+		</junit>
+   </target>
+
+   <target name = "Deploy" depends = "Run Test Files">
+   	<war destfile = "CoursePicker.war" basedir = "web" webxml = "web/web.xml">
+	<classes dir="classes"/>
+   	</war>
+   </target>		
+
+</project>
+
+

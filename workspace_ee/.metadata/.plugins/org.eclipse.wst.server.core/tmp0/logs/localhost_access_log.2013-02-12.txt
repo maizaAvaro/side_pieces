@@ -1,0 +1,10 @@
+127.0.0.1 - - [12/Feb/2013:14:55:43 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:14:55:49 -0500] "GET /MVC_Practice/index.jsp HTTP/1.1" 200 714
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:14:55:58 -0500] "GET /MVC_Practice/Hello?userName= HTTP/1.1" 200 96
+127.0.0.1 - - [12/Feb/2013:15:03:04 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:15:03:08 -0500] "GET /MVC_Practice/index.jsp HTTP/1.1" 200 722
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:15:03:13 -0500] "GET /MVC_Practice/Hello?userName=Nathan HTTP/1.1" 200 170
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:15:03:16 -0500] "GET /MVC_Practice/index.jsp HTTP/1.1" 200 722
+127.0.0.1 - - [12/Feb/2013:15:10:13 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:15:10:15 -0500] "GET /MVC_Practice/index.jsp HTTP/1.1" 200 722
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:15:10:19 -0500] "GET /MVC_Practice/Controller?inputString= HTTP/1.1" 200 370

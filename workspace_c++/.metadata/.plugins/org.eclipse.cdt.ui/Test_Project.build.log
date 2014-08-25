@@ -1,0 +1,8 @@
+19:09:26 **** Rebuild of configuration Debug for project Test_Project ****
+Info: Internal Builder is used for build
+cl /c /EHs /MD /Zi /nologo "/Fosrc\\Test_Project.obj" "..\\src\\Test_Project.cpp" 
+Test_Project.cpp
+link /debug /nologo /OUT:Test_Project.exe "src\\Test_Project.obj" 
+
+19:09:28 Build Finished (took 2s.361ms)
+

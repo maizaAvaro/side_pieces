@@ -1,0 +1,258 @@
+package expressions;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Scanner;
+import java.util.StringTokenizer;
+
+
+/**
+ * Text-based calculator that allows the user to define variables and enter
+ * expressions to be evaluated - excerpt taken from Dr. Dan's Javadoc
+ */
+public class Calculator 
+{
+	
+	/**
+	 * Represents the HashMap that will contain the declared variables and their respective
+	 * value
+	 */
+	protected static HashMap<Character, ValueToken> variableMap;
+	
+	
+	/**
+	 * Initializes the Calculator and creates an empty variable HashMap
+	 */
+	public Calculator()
+	{
+		
+		variableMap = new HashMap<Character, ValueToken>();
+		
+	}	// End of Calculator constructor
+	
+	
+	/**
+	 * 
+	 * @param variableName
+	 * @param variableValue
+	 */
+	protected void addVariable(char variableName, double variableValue)
+	{
+		
+		// TODO
+		
+	}	// End of method addVariable
+	
+
+	/**
+	 * Conducts an interactive dialog with the user, in which the user can define variables, 
+	 * enter expressions to be evaluated, or enter the 'quit' command - excerpt taken from 
+	 * Dr. Dan Everett's Javadoc
+	 * @param args
+	 */
+	public static void main(String[] args)
+	{
+	
+		
+		Scanner scanner = new Scanner(System.in);
+		Calculator calculator = new Calculator();
+		
+		System.out.println("\nWelcome to the CSCI 1302 Calculator Program.\nPlease enter one of the following" +
+				" at each '>' prompt:\nA variable definition in the form 'X=7' (single character variable names" +
+				" only please);\nAn algebraic expression using literal values and variables you have defined --" +
+				" or the 'quit' command\n");
+		
+		String userInput = "";
+		
+		// TODO - Add do-while loop comments
+		while(!(userInput.equalsIgnoreCase("quit")))
+		{
+		
+
+			userInput = scanner.nextLine();
+			
+			if(!(userInput.equalsIgnoreCase("quit")))
+			{
+			
+				if(userInput.contains("="))
+				{
+			
+					calculator.processVariableDeclaration(userInput);
+			
+				}else
+				{
+			
+					Expression userExpression = calculator.tokenizedExpression(userInput);
+					String printExpression = userExpression.toString();
+			
+					System.out.println(printExpression); // TODO - Delete this when no longer needed
+					//System.out.println(userExpression.lastHighPriorityOperatorIndex());
+					
+					List<Token> testList = userExpression.getTokenList();
+					
+					for(int i = 0; i < testList.size(); i++)
+					{
+						
+						System.out.println("List content: " + testList.get(i).getClass());
+						
+					}	// End of for loop
+			
+				}	// End of if-else statement
+				
+			}	// End of if statement	
+			
+		}	// End of while loop
+		
+		System.out.println("Thanks for using the CSCI 1302 Calculator.");
+		
+	}	// End of main method
+	
+	
+	/**
+	 * Process a variable declaration by inserting a name-value pair into the variable map
+	 * @param inputString
+	 */
+	public void processVariableDeclaration(String inputString)
+	{
+		
+		StringTokenizer variableDeclaration = new StringTokenizer(inputString, " = ");
+		
+		String key = variableDeclaration.nextToken();
+		Character keyValue = key.charAt(0);
+		
+		String value = variableDeclaration.nextToken();
+		double numberValue = Double.parseDouble(value);
+		ValueToken vToken = new ValueToken(value, numberValue);
+		
+		variableMap.put(keyValue, vToken);
+		
+	}	// End of method processVariableDeclaration
+	
+	
+	/**
+	 * Tokenizes a String into an Expression - excerpt taken from Dr. Dan Everett's Javadoc
+	 * @param inputString 
+	 */
+	protected Expression tokenizedExpression(String inputString)
+	{
+		
+		List<Token> tokens = new ArrayList<Token>();
+		int numberPosition = 0;
+		
+		//StringTokenizer tokenizer = new StringTokenizer(inputString, " + ");
+		
+		String delims = "[+\\-*/\\() ABCDEFGHIJKLMNOPQRSTVWXYZabcdefghijklmnopqrstuvwxyz]+";
+		String[] numberTokens = inputString.split(delims);
+		
+		// TODO - Add for loop comments
+		for(int index = 0; index < inputString.length(); index++)
+		{
+			
+			char token = inputString.charAt(index);
+			
+			
+			if(token == '+')
+			{
+				
+				OperatorToken oToken = new OperatorToken("+");
+				tokens.add(oToken);
+				
+			}else if(token == '-')
+			{
+				
+				OperatorToken oToken = new OperatorToken("-");
+				tokens.add(oToken);
+				
+			}else if(token == '*')
+			{
+				
+				OperatorToken oToken = new OperatorToken("*");
+				tokens.add(oToken);
+				
+			}else if(token == '/')
+			{
+				
+				OperatorToken oToken = new OperatorToken("/");
+				tokens.add(oToken);
+				
+			}else if(token == '(')
+			{
+				
+				LeftParenthesisToken lToken = new LeftParenthesisToken();
+				tokens.add(lToken);
+				
+			}else if(token == ')')
+			{
+				
+				RightParenthesisToken rToken = new RightParenthesisToken();
+				tokens.add(rToken);
+				
+			}else if(token == ' ')
+			{
+				
+				// Do nothing
+				
+			}else
+			{
+				
+				if(variableMap.containsKey(token))
+				{
+					
+					ValueToken value = variableMap.get(token);
+					double number = value.getValue();
+					String description = Double.toString(number);
+					ValueToken vToken = new ValueToken(description, number);
+					tokens.add(vToken);
+					
+				}else
+				{
+					
+					//double value = Double.parseDouble(token);
+					//ValueToken vToken = new ValueToken(token, value);
+					//tokens.add(vToken);
+					
+					if(numberTokens[0].equals(""))
+					{
+						
+						numberPosition++;
+						double value = Double.parseDouble(numberTokens[numberPosition]);
+						String description = Double.toString(value);
+						ValueToken vToken = new ValueToken(description, value);
+						tokens.add(vToken);
+						
+						int descriptionLength = description.length();
+						//System.out.println("Description: " + description);
+						//System.out.println("Description Length: " + descriptionLength);
+						index = (index + descriptionLength) - 3;
+						
+					}else
+					{
+						
+						double value = Double.parseDouble(numberTokens[numberPosition]);
+						String description = Double.toString(value);
+						ValueToken vToken = new ValueToken(description, value);
+						tokens.add(vToken);
+						numberPosition++;
+						
+						int descriptionLength = description.length();
+						//System.out.println("Description: " + description);
+						//System.out.println("Description Length: " + descriptionLength);
+						index = (index + descriptionLength) - 3;
+						
+					}	// End of if-else statement
+					
+				}	// End of nested if-else statement
+				
+			}	// End of nested if-else statement
+			
+		}	// End of for loop
+		
+		Expression newExpression = new Expression(tokens);
+		
+		return newExpression;
+		
+	}	// End of method tokenizedExpression
+	
+
+}	// End of class Calculator

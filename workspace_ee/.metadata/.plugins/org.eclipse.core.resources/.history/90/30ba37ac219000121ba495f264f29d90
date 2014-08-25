@@ -1,0 +1,48 @@
+package auctionproject;
+
+import java.sql.*;
+import java.util.ArrayList;
+
+/**
+ * 
+ * @author Nathan
+ *
+ */
+public class AuctionHelper 
+{
+	
+	private PreparedStatement addItemStatement;
+	private PreparedStatement removeItemStatement;
+	private PreparedStatement listItemsStatement;
+	
+	private PreparedStatement listCategoryStatement;
+	
+	private static String JDBC_URL = "jdbc:mysql://localhost/cs4300";
+	
+	/**
+	 * Connect to DB and create PreparedStatements
+	 */
+	public AuctionHelper(){
+		
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			Connection conn = DriverManager.getConnection(JDBC_URL, "root", "mysql");
+			
+			String statementStr = "insert into AuctionItem " +
+					"(custName, custAddr, creditLimit, unpaidBalance, imageURL) " +
+					"values (?, ?, ?, ?, ?)";
+			addItemStatement = conn.prepareStatement(statementStr);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void addItem() {
+		
+	}
+
+	public ArrayList<Category> getCategoryList(){
+		return null;
+	}
+}

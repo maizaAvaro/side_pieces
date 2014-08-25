@@ -1,0 +1,26 @@
+/*
+ * list.cpp
+ *
+ *  Created on: Feb 13, 2013
+ *      Author: Nathan
+ */
+
+#include "list.h"
+
+SLL::SLL()
+{
+
+
+
+}
+
+SLL::~SLL()
+{
+
+	cout << endl;
+	cout << "Singly Linked List Destructor Called" << endl;
+
+}
+
+
+

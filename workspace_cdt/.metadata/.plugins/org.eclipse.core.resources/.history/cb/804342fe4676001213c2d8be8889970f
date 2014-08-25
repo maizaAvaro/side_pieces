@@ -1,0 +1,22 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Feb 13, 2013
+ *      Author: Nathan
+ */
+
+#include "node.cpp"
+#include "list.cpp"
+
+int main()
+{
+
+
+
+	return 0;
+
+}
+
+
+
+

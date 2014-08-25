@@ -1,0 +1,14 @@
+
+**** Clean-only build of configuration Debug for project Problem 6 ****
+
+make clean 
+rm -rf  ./src/Problem\ 6.o  ./src/Problem\ 6.d  "Problem 6.exe"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\Nathan\workspace_cdt\Problem 6\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/Nathan/workspace_cdt/Problem 6/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+ 
+
+**** Build Finished ****

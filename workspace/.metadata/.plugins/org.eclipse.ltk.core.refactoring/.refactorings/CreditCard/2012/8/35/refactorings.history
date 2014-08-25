@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;creditcard.CustomerAccountTest.testCustomerAccount()&apos; to &apos;testConstructor&apos;&#x0D;&#x0A;- Original project: &apos;CreditCard&apos;&#x0D;&#x0A;- Original element: &apos;creditcard.CustomerAccountTest.testCustomerAccount()&apos;&#x0D;&#x0A;- Renamed element: &apos;creditcard.CustomerAccountTest.testConstructor()&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="true" description="Rename method &apos;testCustomerAccount&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;creditcard{CustomerAccountTest.java[CustomerAccountTest~testCustomerAccount" name="testConstructor" references="true" stamp="1346352756253" version="1.0"/>
+</session>

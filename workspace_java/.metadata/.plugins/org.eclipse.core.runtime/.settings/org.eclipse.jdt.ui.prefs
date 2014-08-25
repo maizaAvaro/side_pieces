@@ -1,0 +1,21 @@
+command=C\:\\Program Files\\Java\\jdk1.7.0_25\\bin\\javadoc.exe
+content_assist_disabled_computers=org.eclipse.recommenders.completion.rcp.templates.category\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.recommenders.completion.rcp.chain.category\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.recommenders.subwords.rcp.category\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="org.jscience.mathematics.structure.Field"><rhs name\="org.jscience.mathematics.number.Float64"/></lhs><lhs name\="org.jscience.mathematics.structure.Ring"><rhs name\="org.jscience.mathematics.number.Float64"/></lhs><lhs name\="org.jscience.mathematics.structure.GroupMultiplicative"><rhs name\="org.jscience.mathematics.number.Float64"/></lhs><lhs name\="org.jscience.mathematics.structure.GroupAdditive"><rhs name\="org.jscience.mathematics.number.Float64"/></lhs><lhs name\="org.jscience.mathematics.structure.Structure"><rhs name\="org.jscience.mathematics.number.Float64"/></lhs><lhs name\="javolution.lang.ValueType"><rhs name\="org.jscience.mathematics.number.Float64"/></lhs><lhs name\="javolution.lang.Immutable"><rhs name\="org.jscience.mathematics.number.Float64"/></lhs><lhs name\="org.jscience.mathematics.number.Number"><rhs name\="org.jscience.mathematics.number.Float64"/></lhs><lhs name\="javolution.lang.Realtime"><rhs name\="org.jscience.mathematics.number.Float64"/></lhs><lhs name\="javolution.xml.XMLSerializable"><rhs name\="org.jscience.mathematics.number.Float64"/></lhs><lhs name\="java.lang.Number"><rhs name\="org.jscience.mathematics.number.Float64"/></lhs><lhs name\="org.jenetics.Statistics$Calculator"><rhs name\="org.jenetics.NumberStatistics$Calculator"/></lhs></history>
+content_assist_number_of_computers=21
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+fontPropagated=true
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jface.textfont=1|Consolas|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Consolas;
+proposalOrderMigrated=true
+spelling_locale_initialized=true
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
